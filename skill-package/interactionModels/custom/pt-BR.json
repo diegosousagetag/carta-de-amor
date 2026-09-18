@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "carta de amor",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "RespostaDiaIntent",
+          "slots": [
+            {
+              "name": "resposta",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "{resposta}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

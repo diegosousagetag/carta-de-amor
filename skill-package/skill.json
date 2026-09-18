@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:318883658404:function:ReflectorTemplateSkill"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "pt-BR": {
+          "description": "Uma skill carinhosa para perguntar como foi o dia da Helen e lembrar que tudo vai dar certo.",
+          "examplePhrases": [
+            "Alexa, abra carta de amor",
+            "Alexa, abrir carta de amor"
+          ],
+          "keywords": [
+            "amor",
+            "namorada",
+            "carinho"
+          ],
+          "name": "Carta de Amor",
+          "summary": "Skill romântica que pergunta como foi o dia da Helen e manda uma mensagem de carinho."
+        }
+      },
+      "testingInstructions": "Diga 'Alexa, abra carta de amor' e responda como foi o seu dia quando ela perguntar."
+    }
+  }
+}
